@@ -1,6 +1,6 @@
-# oscarmui.github.io
+# balance-scale-web
 
-A website about me.
+Simple static website for my game for marketing.
 
 ## Installation
 
