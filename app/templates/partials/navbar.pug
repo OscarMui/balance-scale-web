@@ -1,0 +1,15 @@
+nav#myNav.navbar.navbar-default.navbar-expand-lg.navbar-dark: .container.my-1
+    .navbar-brand
+        a(href='/index.html'): img(src="/images/icon_202410.jpg" width="40" height="40" alt="").rounded
+        a(href="https://play.google.com/store/apps/details?id=com.kidprof.tenbin").ms-4: img(src="/images/google-play-white.png" width="30" height="30" alt="")
+    a.navbar-brand(href='/index.html') Tenbin
+    button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#orderNav')
+        span.navbar-toggler-icon.navbar-light
+    .collapse.navbar-collapse#orderNav
+        ul.nav.navbar-nav
+            li.nav-item: a.nav-link(href="/index.html"  class={'active': currentPage === 'home'}) Home
+            li.nav-item: a.nav-link(href="https://play.google.com/store/apps/details?id=com.kidprof.tenbin") Download
+            //- li.nav-item: a.nav-link(href="/tutorial.html" class={'active': currentPage === 'tutorial'}) How to play?
+            //- li.nav-item: a.nav-link(href="/log.html"  class={'active': currentPage === 'log'}) Update Log
+            li.nav-item: a.nav-link(href="/privacy.html"  class={'active': currentPage === 'privacy'}) Privacy Policy
+            li.nav-item: a.nav-link(href="/contact.html"  class={'active': currentPage === 'contact'}) Contact

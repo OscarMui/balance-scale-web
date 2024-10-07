@@ -1,0 +1,17 @@
+extends ../layouts/default
+
+block js
+
+block append variables 
+	- var currentPage = "home";
+	- var themeColor = "dark";
+
+block content
+	#home-container.container
+		.big-logo
+			img(src="images/icon_202410.jpg" alt="Tenbin App Logo")
+		.download-links
+			a(href="https://play.google.com/store/apps/details?id=com.kidprof.tenbin")
+				img(src="images/google-play.png" alt="Download on Google Play")
+			//- a(href="https://apps.apple.com/app/id123456789")
+			//- 	img(src="path/to/app-store-icon.png" alt="Download on the App Store")
